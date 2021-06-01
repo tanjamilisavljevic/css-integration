@@ -1,0 +1,77 @@
+.title1{
+    color: #79d69f;
+    font-size: x-large;
+}
+.title2{
+    color: #79d69f;
+    font-size: x-large;
+}
+.title3{
+    color: #79d69f;
+    font-size: x-large;
+}
+.title4{
+    color: #79d69f;
+    font-size: x-large;
+}
+
+.smallcaps{
+    font-variant-caps: all-small-caps;
+}
+
+.accent{
+    font-size: 115%;
+    letter-spacing: 2px;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card1{
+    justify-content: space-around;
+    width: 20%;
+}
+.card2{
+    justify-content: space-around;
+    width: 20%;
+
+}
+.card3{
+    justify-content: space-around;
+    width: 20%;
+
+}
+.card4{
+    justify-content: space-around;
+    width: 20%;
+}
+
+.gruntimg{
+    height: 125px;    
+}
+.gulpimg{
+    height: 125px;    
+}
+.githooksimg{
+    height: 125px;    
+}
+.npmimg{
+    padding: 30px;
+    height: 50px;    
+    width: 125px;
+}
+
+
+
+
+@media only screen and (max-width: 688px ){
+    body{
+        display: flex;
+        flex-flow: column;
+    }
+}
