@@ -17,14 +17,13 @@ hr{
 body{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
-    background-color: #478def;
+    background-image: linear-gradient(#478def, #4a92f7);
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
 }
 #toppages{
     display: grid;
-    grid-template-rows: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
     grid-template-columns: 90% 10%;
     grid-auto-flow: row;
 }
