@@ -34,10 +34,7 @@ body{
     border-top: solid white 1px;
 }
 .reportp{
-    float: inline-start;
+    text-align: right;
+    font-weight: bold;
 }
-.reportlink{
 
-    color: white;
-    float:inline-end
-}
