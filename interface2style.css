@@ -28,10 +28,10 @@ body{
     grid-auto-flow: row;
 }
 .link{
-    border-top: solid white 1px;  
+    border-top: solid #80b0f8 1px;  
 }
 .num{
-    border-top: solid white 1px;
+    border-top: solid #80b0f8 1px;
 }
 .reportp{
     text-align: right;
