@@ -1,16 +1,4 @@
-.title1{
-    color: #79d69f;
-    font-size: x-large;
-}
-.title2{
-    color: #79d69f;
-    font-size: x-large;
-}
-.title3{
-    color: #79d69f;
-    font-size: x-large;
-}
-.title4{
+.title{
     color: #79d69f;
     font-size: x-large;
 }
@@ -26,47 +14,24 @@
 
 body{
     font-family: 'Inconsolata', monospace;
-    display: inline-flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.card1{
-    justify-content: space-around;
-    width: 20%;
-}
-.card2{
-    justify-content: space-around;
-    width: 20%;
-
-}
-.card3{
-    justify-content: space-around;
-    width: 20%;
-
-}
-.card4{
-    justify-content: space-around;
-    width: 20%;
+.card{
+    display: grid;
+    grid-template-rows: 60% 10% 30%;
+    row-gap: 15px;
+    flex: 1;
+    margin: 4em;
 }
 
-.gruntimg{
-    height: 125px;    
+.img{
+    place-self: center;
+    height: 125px;
 }
-.gulpimg{
-    height: 125px;    
-}
-.githooksimg{
-    height: 125px;    
-}
-.npmimg{
-    padding: 30px;
-    height: 50px;    
-    width: 125px;
-}
-
-
 
 
 @media only screen and (max-width: 688px ){
